@@ -1,12 +1,49 @@
 ---
-layout: cv
-permalink: /cv/
 title: CV
+permalink: /CV/
 nav: true
 nav_order: 3
-cv_pdf: "/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf" # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+new_tab: true
+layout: null
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CV — Connie Xu</title>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YERNZ8JPQ4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YERNZ8JPQ4');
+    // give the pageview a moment to send, then go to the PDF
+    setTimeout(function () {
+      window.location.replace("/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf");
+    }, 100);
+  </script>
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf">
+  </noscript>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #ffffff;
+      font-family: "Roboto", -apple-system, sans-serif;
+      color: #404040;
+    }
+    .box { text-align: center; }
+    .name { font-weight: 700; font-size: 1.1rem; margin-bottom: 0.4rem; }
+    .msg { font-size: 0.9rem; color: #7c6cd6; }
+    a { color: #7c6cd6; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div class="name">Connie Xu</div>
+    <div class="msg">Opening CV&hellip; <a href="/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf">click here</a> if it doesn't
