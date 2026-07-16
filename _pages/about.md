@@ -25,11 +25,11 @@ latest_posts:
 ---
 <div style="text-align: justify;" markdown="1">
 
-Hello! I am a PhD candidate in Economics at Harvard University. I study the economics of innovation and industrial organization, with a particular focus on digitization and AI.
+Welcome to my homepage! I am a PhD candidate in Economics at Harvard University. I study innovation and industrial organization, with a particular focus on digitization and AI.
 
 **I am on the 2026-2027 job market.**
 
-I am a graduate affiliate of the [Institute for Quantitative Social Science](https://www.iq.harvard.edu/). Prior to graduate school, I worked as a Pre-Doctoral Fellow at [Opportunity Insights](https://opportunityinsights.org/). I received my bachelor's in Economics, Mathematics, and Statistics from the University of Chicago in 2019.
+I am a graduate affiliate of the [Institute for Quantitative Social Science](https://www.iq.harvard.edu/). Prior to the PhD, I worked as a Pre-Doctoral Fellow at [Opportunity Insights](https://opportunityinsights.org/) and graduated from the University of Chicago in 2019.
 
 You can reach me at [rzhang15@g.harvard.edu](mailto:rzhang15@g.harvard.edu).
 

@@ -11,7 +11,7 @@ layout: null
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CV — Connie Xu</title>
+  <title>Ruby Zhang CV</title>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YERNZ8JPQ4"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -45,5 +45,5 @@ layout: null
 </head>
 <body>
   <div class="box">
-    <div class="name">Connie Xu</div>
+    <div class="name">Ruby Zhang</div>
     <div class="msg">Opening CV&hellip; <a href="/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf">click here</a> if it doesn't
