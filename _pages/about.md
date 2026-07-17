@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: russ_headshot.jpg
+  image: headshot1.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
 
@@ -25,7 +25,7 @@ latest_posts:
 ---
 <div style="text-align: justify;" markdown="1">
 
-Welcome to my homepage! I am a PhD candidate in Economics at Harvard University. I study innovation and industrial organization, with a particular focus on digitization and AI.
+Welcome to my website! I am a PhD candidate in Economics at Harvard University. I study innovation and industrial organization, with a particular focus on digitization and AI.
 
 **I am on the 2026-2027 job market.**
 
