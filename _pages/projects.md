@@ -34,6 +34,7 @@ nav_order: 2
 </style>
 
 ## Job Market Paper
+
 <details class="paper-card">
 <summary>
 <b>The Returns to Science of Centrally Provisioned GPUs and Optimal Allocation</b><br>
@@ -107,6 +108,7 @@ nav_order: 2
 </details>
 
 ## Policy Writing
+
 <details class="paper-card">
 <summary>
 <b><a href="https://nap.nationalacademies.org/resource/27838/Zhang_Commissioned_Paper.pdf">Building Up Research Capacity at Minority Institutions</a></b><br>
