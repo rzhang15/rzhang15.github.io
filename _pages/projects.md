@@ -76,6 +76,7 @@ nav_order: 2
 <summary>
 <b><a href="https://doi.org/10.1016/j.telpol.2026.103209">Wireless communications equipment markets: evolution, classification, and measurement.</a></b><br>
 (with <a href="https://www.linkedin.com/in/noah-greenstein-aa0872133/">Noah Greenstein</a>, <a href="https://scholar.google.com/citations?user=KjdWS1kAAAAJ&hl=en">Roberto Fontana</a>, <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=718917">Shane Greenstein</a>, <a href="https://haiyangzhang.org/">Haiyang Zhang</a>, <a href="https://omarolivarez.com/">Omar Olivarez</a>, and <a href="https://scholar.google.com/citations?user=PWNDHjgAAAAJ&hl=en">Do Yoon Kim</a>)
+
 *Telecommunications Policy,* 2026.
 </summary>
 <div class="abstract-body">
@@ -87,6 +88,7 @@ nav_order: 2
 <summary>
 <b><a href="https://doi.org/10.1038/s41586-022-04996-4">Social capital I: measurement and associations with economic mobility.</a></b><br>
 (with <a href="https://www.economics.harvard.edu/people/raj-chetty">Raj Chetty</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://pages.stern.nyu.edu/~tkuchler/">Theresa Kuchler</a>, <a href="https://pages.stern.nyu.edu/~jstroebe/">Johannes Stroebel</a>, et al.)
+
 *Nature,* 2022.
 <span class="card-foot"><span class="abs-hint"></span> &nbsp;&nbsp; Media coverage: <a href="https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html">New York Times</a></span>
 </summary>
@@ -99,6 +101,7 @@ nav_order: 2
 <summary>
 <b><a href="https://doi.org/10.1038/s41586-022-04997-3">. Social capital II: determinants of economic connectedness.</a></b><br>
 (with <a href="https://www.economics.harvard.edu/people/raj-chetty">Raj Chetty</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://pages.stern.nyu.edu/~tkuchler/">Theresa Kuchler</a>, <a href="https://pages.stern.nyu.edu/~jstroebe/">Johannes Stroebel</a>, et al.)
+
 *Nature,* 2022.
 <span class="card-foot"><span class="abs-hint"></span> &nbsp;&nbsp; Media coverage: <a href="https://www.nytimes.com/2022/08/01/briefing/economic-ladder-rich-poor-americans.html">New York Times</a></span>
 </summary>
