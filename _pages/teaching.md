@@ -31,9 +31,14 @@ nav_order: 3
   .course .resource-list li {
     margin-bottom: 0.4rem;
   }
+  /* Student testimonials: smaller and grey. */
+  .course blockquote {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+  }
 </style>
 
-I am lucky to have taught great students and courses during my time as a graduate student. I was a teaching fellow for *ECON 1640: Industrial Organization* (undergraduate) and co-created a computational PhD course *ECON 2003: Computing for Economists* with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/). 
+I am lucky to have taught excellent students and courses during my time as a graduate student. I was a teaching fellow for _ECON 1640: Industrial Organization_ (undergraduate) and co-created a computational PhD course _ECON 2003: Computing for Economists_ with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/).
 
 <div class="course" markdown="0">
   <h2>ECON 2003: Computing for Economists</h2>
@@ -60,12 +65,12 @@ I am lucky to have taught great students and courses during my time as a graduat
 <div class="course" markdown="0">
   <h2>ECON 1640: Industrial Organization</h2>
   <div class="course-meta">Fall 2024 · Fall 2025</div>
-  <p>As a teaching fellow, I created section materials and held office hours to review the core concepts of firms competing in markets with imperfect competition. You can find my full student evaluations [here](/assets/pdf/Ruby%20(Ruishan)%20Zhang%20Teaching%20Evaluations.pdf).</p>
+  <p>As a teaching fellow, I created section materials and held office hours to review the core concepts of firms competing in markets with imperfect competition.</p>
 
   <p><strong>Selected Teaching Evaluations</strong></p>
 
   <blockquote>
-"Ruby might be the best economics section leader I have ever had. If you're part of a university search committee for an assistant professor position, please do your university's students a favor and hire Ruby. Ruby is amazing for a myriad of reasons, but I want to highlight three in particular. (1) Firstly, she is just really gifted at teaching economics. I have taken many FOCs in my undergrad degree and solved many different micro problems, but I still feel like I walked away with a better micro foundation from this course, in no small part because of Ruby's sections. I did not miss a single section largely because Ruby was so excellent at explaining course material in an accessible manner. (2) Secondly, she is incredibly generous with her time and very responsive to questions. She always promptly responded to emails I might have sent her and her explanations were always succinct and insightful. The night before the final exam, she went through the papers we needed to know for the final with a small group of students who had showed up to her office hours because we had asked for some help reviewing key papers. She cares a lot for her students and this is abundantly evident to how she approaches teaching. (3) Thirdly, she generates enthusiasm for economics. She's such a kind, wonderful educator that it's hard to not be excited to learn economics during her section. I am so excited for whatever university gets to have Ruby on their faculty!"
+"Ruby might be the best economics section leader I have ever had [...] I have taken many FOCs in my undergrad degree and solved many different micro problems, but I still feel like I walked away with a better micro foundation from this course, in no small part because of Ruby's sections [...] She cares a lot for her students and this is abundantly evident to how she approaches teaching [...] She's such a kind, wonderful educator that it's hard to not be excited to learn economics during her section. I am so excited for whatever university gets to have Ruby on their faculty!"
   </blockquote>
 
   <blockquote>

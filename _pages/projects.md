@@ -14,22 +14,47 @@ nav_order: 2
     --global-theme-color: #0076df;
     --global-hover-color: #0076df;
   }
-  .course {
-    margin-bottom: 2.5rem;
+  /* Clickable paper cards (adapted from Connie Xu's site) */
+  details.paper-card,
+  div.paper-card {
+    background: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
   }
-  .course h2 {
-    margin-bottom: 0.2rem;
+  div.paper-card {
+    padding: 1.25rem 1.5rem;
   }
-  .course .course-meta {
-    color: var(--global-text-color-light);
-    margin-bottom: 0.8rem;
-  }
-  .course .resource-list {
+  details.paper-card summary {
+    padding: 1.25rem 1.5rem;
+    cursor: pointer;
     list-style: none;
-    padding-left: 0;
   }
-  .course .resource-list li {
-    margin-bottom: 0.4rem;
+  details.paper-card summary::-webkit-details-marker {
+    display: none;
+  }
+  /* card footer row: abstract hint + media coverage on one line */
+  details.paper-card .card-foot {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+  }
+  details.paper-card .abs-hint::after {
+    content: "Abstract ▾";
+    color: var(--global-theme-color);
+  }
+  details.paper-card[open] .abs-hint::after {
+    content: "Abstract ▴";
+  }
+  details.paper-card .abstract-body {
+    padding: 0 1.5rem 1.25rem;
+    border-top: 1px solid var(--global-divider-color);
+    padding-top: 1rem;
+    text-align: justify;
+  }
+  details.paper-card summary:hover,
+  div.paper-card:hover {
+    border-color: var(--global-theme-color);
   }
 </style>
 
@@ -74,10 +99,10 @@ nav_order: 2
 
 <details class="paper-card">
 <summary>
-<b><a href="https://doi.org/10.1016/j.telpol.2026.103209">Wireless communications equipment markets: evolution, classification, and measurement.</a></b><br>
+<b><a href="https://doi.org/10.1016/j.telpol.2026.103209">Wireless communications equipment markets: evolution, classification, and measurement</a></b><br>
 (with <a href="https://www.linkedin.com/in/noah-greenstein-aa0872133/">Noah Greenstein</a>, <a href="https://scholar.google.com/citations?user=KjdWS1kAAAAJ&hl=en">Roberto Fontana</a>, <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=718917">Shane Greenstein</a>, <a href="https://haiyangzhang.org/">Haiyang Zhang</a>, <a href="https://omarolivarez.com/">Omar Olivarez</a>, and <a href="https://scholar.google.com/citations?user=PWNDHjgAAAAJ&hl=en">Do Yoon Kim</a>)
 
-*Telecommunications Policy,* 2026.
+<br /><i>Telecommunications Policy</i>, 2026.
 </summary>
 <div class="abstract-body">
 <p>A central concern of many policy debates has been to foster more innovative wireless markets. How can policymakers assess whether this objective has been achieved? One measure of successful innovation is an increase in the breadth of markets addressed by new products. Existing product taxonomies, such as the North American Industry Classification System (NAICS), require new products to fit into legacy categories. Thus, they may fail to fully measure the development of new products from emerging wireless markets. This study proposes an experimental product code based on the compliance and certification applications for over 200,000 wireless devices in the Federal Communications Commission's (FCC) Equipment Authorization System (EAS) database from 1982 to 2021. The taxonomy was developed using a novel methodology, in which key phrases from application product descriptions were matched to product categories. The product code is inspired by, but diverges from, the NAICS codes. It comprises three levels of nested product aggregation: 26 Classes, 83 Families, and 298 Types, offering unique avenues to analyze the cross-market scope of wireless technology over decades. The study shows that the breadth of markets for wireless products has grown over time, particularly in areas supported by unlicensed spectrum and corresponding standards, such as Wi-Fi and Bluetooth.</p>
@@ -86,11 +111,12 @@ nav_order: 2
 
 <details class="paper-card">
 <summary>
-<b><a href="https://doi.org/10.1038/s41586-022-04996-4">Social capital I: measurement and associations with economic mobility.</a></b><br>
+<b><a href="https://doi.org/10.1038/s41586-022-04996-4">Social capital I: measurement and associations with economic mobility</a></b><br>
 (with <a href="https://www.economics.harvard.edu/people/raj-chetty">Raj Chetty</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://pages.stern.nyu.edu/~tkuchler/">Theresa Kuchler</a>, <a href="https://pages.stern.nyu.edu/~jstroebe/">Johannes Stroebel</a>, et al.)
 
-*Nature,* 2022.
+<br /><i>Nature</i>, 2022.
 <span class="card-foot"><span class="abs-hint"></span> &nbsp;&nbsp; Media coverage: <a href="https://www.nytimes.com/interactive/2022/08/01/upshot/rich-poor-friendships.html">New York Times</a></span>
+
 </summary>
 <div class="abstract-body">
 <p>Social capital—the strength of an individual's social network and community—has been identified as a potential determinant of outcomes ranging from education to health. However, efforts to understand what types of social capital matter for these outcomes have been hindered by a lack of social network data. Here, in the first of a pair of papers, we use data on 21 billion friendships from Facebook to study social capital. We measure and analyse three types of social capital by ZIP (postal) code in the United States: (1) connectedness between different types of people, such as those with low versus high socioeconomic status (SES); (2) social cohesion, such as the extent of cliques in friendship networks; and (3) civic engagement, such as rates of volunteering. These measures vary substantially across areas, but are not highly correlated with each other. We demonstrate the importance of distinguishing these forms of social capital by analysing their associations with economic mobility across areas. The share of high-SES friends among individuals with low SES—which we term economic connectedness—is among the strongest predicters of upward income mobility identified to date. Other social capital measures are not strongly associated with economic mobility. If children with low-SES parents were to grow up in counties with economic connectedness comparable to that of the average child with high-SES parents, their incomes in adulthood would increase by 20% on average. Differences in economic connectedness can explain well-known relationships between upward income mobility and racial segregation, poverty rates, and inequality. To support further research and policy interventions, we publicly release privacy-protected statistics on social capital by ZIP code at https://www.socialcapital.org.</p>
@@ -99,11 +125,12 @@ nav_order: 2
 
 <details class="paper-card">
 <summary>
-<b><a href="https://doi.org/10.1038/s41586-022-04997-3">. Social capital II: determinants of economic connectedness.</a></b><br>
+<b><a href="https://doi.org/10.1038/s41586-022-04997-3">Social capital II: determinants of economic connectedness</a></b><br>
 (with <a href="https://www.economics.harvard.edu/people/raj-chetty">Raj Chetty</a>, <a href="https://web.stanford.edu/~jacksonm/">Matthew O. Jackson</a>, <a href="https://pages.stern.nyu.edu/~tkuchler/">Theresa Kuchler</a>, <a href="https://pages.stern.nyu.edu/~jstroebe/">Johannes Stroebel</a>, et al.)
 
-*Nature,* 2022.
+<br /><i>Nature</i>, 2022.
 <span class="card-foot"><span class="abs-hint"></span> &nbsp;&nbsp; Media coverage: <a href="https://www.nytimes.com/2022/08/01/briefing/economic-ladder-rich-poor-americans.html">New York Times</a></span>
+
 </summary>
 <div class="abstract-body">
 <p>Low levels of social interaction across class lines have generated widespread concern and are associated with worse outcomes, such as lower rates of upward income mobility. Here we analyse the determinants of cross-class interaction using data from Facebook, building on the analysis in our companion paper. We show that about half of the social disconnection across socioeconomic lines—measured as the difference in the share of high-socioeconomic status (SES) friends between people with low and high SES—is explained by differences in exposure to people with high SES in groups such as schools and religious organizations. The other half is explained by friending bias—the tendency for people with low SES to befriend people with high SES at lower rates even conditional on exposure. Friending bias is shaped by the structure of the groups in which people interact. For example, friending bias is higher in larger and more diverse groups and lower in religious organizations than in schools and workplaces. Distinguishing exposure from friending bias is helpful for identifying interventions to increase cross-SES friendships (economic connectedness). Using fluctuations in the share of students with high SES across high school cohorts, we show that increases in high-SES exposure lead low-SES people to form more friendships with high-SES people in schools that exhibit low levels of friending bias. Thus, socioeconomic integration can increase economic connectedness in communities in which friending bias is low. By contrast, when friending bias is high, increasing cross-SES interactions among existing members may be necessary to increase economic connectedness. To support such efforts, we release privacy-protected statistics on economic connectedness, exposure and friending bias for each ZIP (postal) code, high school and college in the United States at https://www.socialcapital.org.</p>

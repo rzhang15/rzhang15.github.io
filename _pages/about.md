@@ -3,7 +3,7 @@ layout: about
 title: About
 permalink: /
 subtitle:
-nav: true
+nav: false # the navbar auto-adds the homepage as the "about" tab; nav:true would duplicate it
 nav_order: 1
 
 # NOTE: the photo + social icons are built by hand in the page body below so the
