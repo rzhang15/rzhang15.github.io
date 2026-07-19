@@ -3,10 +3,6 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-YERNZ8JPQ4');
-    // give the pageview a moment to send, then go to the PDF
-    setTimeout(function () {
-      window.location.replace("/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf");
-    }, 100);
   </script> <noscript> <meta http-equiv="refresh" content="0; url=/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf"> </noscript> <style>
     body {
       margin: 0;
@@ -20,6 +16,14 @@
     }
     .box { text-align: center; }
     .name { font-weight: 700; font-size: 1.1rem; margin-bottom: 0.4rem; }
-    .msg { font-size: 0.9rem; color: #7c6cd6; }
-    a { color: #7c6cd6; }
-  </style> <div class="box"> <div class="name">Ruby Zhang</div> <div class="msg">Opening CV… <a href="/assets/pdf/Ruby%20(Ruishan)%20Zhang%20Curriculum%20Vitae.pdf">click here</a> if it doesn't </div> </div> </body></html>
+    .msg { font-size: 0.9rem; color: #0076df; }
+    a { color: #0076df; }
+  </style> <div class="box"> <div class="name">Ruby Zhang</div> <div class="msg"> Opening CV in a new tab… <a id="cv-pdf-link" href="/assets/pdf/Ruby%20(Ruishan)%20Zhang%20Curriculum%20Vitae.pdf" target="_blank" rel="noopener">click here</a> if it doesn't open automatically. </div> </div> <script>
+    // Open the PDF in a new tab, then send this tab back to the page the visitor came from
+    // (falling back to the homepage) so the site itself is never replaced by the PDF.
+    document.getElementById('cv-pdf-link').click();
+    setTimeout(function () {
+      var back = document.referrer;
+      window.location.href = back && back.indexOf(window.location.host) !== -1 ? back : '/';
+    }, 150);
+  </script> </body></html>
