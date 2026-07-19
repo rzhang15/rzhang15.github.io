@@ -3,7 +3,6 @@ title: CV
 permalink: /CV/
 nav: true
 nav_order: 4
-new_tab: true
 layout: null
 ---
 
@@ -13,12 +12,12 @@ layout: null
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ruby Zhang CV</title>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YERNZ8JPQ4"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QQ3FMGW5SH"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'G-YERNZ8JPQ4');
+    gtag('config', 'G-QQ3FMGW5SH');
   </script>
   <noscript>
     <meta http-equiv="refresh" content="0; url=/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf">
@@ -35,28 +34,25 @@ layout: null
       color: #404040;
     }
     .box { text-align: center; }
-    .name { font-weight: 700; font-size: 1.1rem; margin-bottom: 0.4rem; }
-    .msg { font-size: 0.9rem; color: #0076df; }
-    a { color: #0076df; }
+    .name { font-weight: 700; font-size: 1.1rem; margin-bottom: 1rem; }
+    .cv-button {
+      display: inline-block;
+      padding: 0.7rem 1.6rem;
+      background: #0076df;
+      color: #ffffff;
+      border-radius: 6px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    .cv-button:hover {
+      background: #005bad;
+    }
   </style>
 </head>
 <body>
   <div class="box">
     <div class="name">Ruby Zhang</div>
-    <div class="msg">
-      Opening CV in a new tab&hellip;
-      <a id="cv-pdf-link" href="/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf" target="_blank" rel="noopener">click here</a>
-      if it doesn't open automatically.
-    </div>
+    <a class="cv-button" href="/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf" target="_blank" rel="noopener">View CV (PDF) ↗</a>
   </div>
-  <script>
-    // Open the PDF in a new tab, then send this tab back to the page the visitor came from
-    // (falling back to the homepage) so the site itself is never replaced by the PDF.
-    document.getElementById('cv-pdf-link').click();
-    setTimeout(function () {
-      var back = document.referrer;
-      window.location.href = back && back.indexOf(window.location.host) !== -1 ? back : '/';
-    }, 150);
-  </script>
 </body>
 </html>

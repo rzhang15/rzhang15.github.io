@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title:
 permalink: /research/
 description:
 nav: true
@@ -8,11 +8,14 @@ nav_order: 2
 ---
 
 <style>
-  /* Site accent / link color (overrides the theme's default magenta), light + dark. */
-  :root,
-  html[data-theme="dark"] {
+  /* Site accent / link color (overrides the theme's default magenta). */
+  :root {
     --global-theme-color: #0076df;
     --global-hover-color: #0076df;
+  }
+  html[data-theme="dark"] {
+    --global-theme-color: #58a6ff;
+    --global-hover-color: #58a6ff;
   }
   /* Clickable paper cards (adapted from Connie Xu's site) */
   details.paper-card,
@@ -71,18 +74,7 @@ nav_order: 2
 </div>
 </details>
 
-## Works in Progress
-
-<details class="paper-card">
-<summary>
-<b>Scientific Input Costs in University Life Sciences Research</b><br>
-(with <a href="https://conniexu75.github.io/">Connie Xu</a>)
-<span class="card-foot"><span class="abs-hint"></span></span>
-</summary>
-<div class="abstract-body">
-<p>Public funders delegate money and broad discretion to principal investigators (PIs), yet whether that discretion protects research output when input prices rise is unknown. We ask how PIs adjust, and how much research is lost. Using novel purchase-level procurement records, we exploit the 2014 merger of Thermo Fisher Scientific and Life Technologies as a shock to input prices. A matched difference-in-differences design estimates that prices in affected markets rose approximately 20 percent while quantities moved minimally, indicating highly inelastic demand. Tracing this cost shock through a panel of 6,382 U.S. life sciences PIs, we find the average PI, facing a 3.2 percent rise in input costs, publishes about 1.2 percent fewer papers, an elasticity of about -0.38. The decline concentrates among early-career PIs, who command fewer resources to draw on. The volume of publicly funded science thus depends on prices in input markets and on the PIs who manage the grants.</p>
-</div>
-</details>
+## Working Papers
 
 <details class="paper-card">
 <summary>
@@ -95,6 +87,17 @@ nav_order: 2
 </div>
 </details>
 
+<details class="paper-card">
+<summary>
+<b>Scientific Input Costs in University Life Sciences Research</b><br>
+(with <a href="https://conniexu75.github.io/">Connie Xu</a>)
+<span class="card-foot"><span class="abs-hint"></span></span>
+</summary>
+<div class="abstract-body">
+<p>Public funders delegate money and broad discretion to principal investigators (PIs), yet whether that discretion protects research output when input prices rise is unknown. We ask how PIs adjust, and how much research is lost. Using novel purchase-level procurement records, we exploit the 2014 merger of Thermo Fisher Scientific and Life Technologies as a shock to input prices. A matched difference-in-differences design estimates that prices in affected markets rose approximately 20 percent while quantities moved minimally, indicating highly inelastic demand. Tracing this cost shock through a panel of 6,382 U.S. life sciences PIs, we find the average PI, facing a 3.2 percent rise in input costs, publishes about 1.2 percent fewer papers, an elasticity of about -0.38. The decline concentrates among early-career PIs, who command fewer resources to draw on. The volume of publicly funded science thus depends on prices in input markets and on the PIs who manage the grants.</p>
+</div>
+</details>
+
 ## Publications
 
 <details class="paper-card">
@@ -103,6 +106,8 @@ nav_order: 2
 (with <a href="https://www.linkedin.com/in/noah-greenstein-aa0872133/">Noah Greenstein</a>, <a href="https://scholar.google.com/citations?user=KjdWS1kAAAAJ&hl=en">Roberto Fontana</a>, <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=718917">Shane Greenstein</a>, <a href="https://haiyangzhang.org/">Haiyang Zhang</a>, <a href="https://omarolivarez.com/">Omar Olivarez</a>, and <a href="https://scholar.google.com/citations?user=PWNDHjgAAAAJ&hl=en">Do Yoon Kim</a>)
 
 <br /><i>Telecommunications Policy</i>, 2026.
+<span class="card-foot"><span class="abs-hint"></span></span>
+
 </summary>
 <div class="abstract-body">
 <p>A central concern of many policy debates has been to foster more innovative wireless markets. How can policymakers assess whether this objective has been achieved? One measure of successful innovation is an increase in the breadth of markets addressed by new products. Existing product taxonomies, such as the North American Industry Classification System (NAICS), require new products to fit into legacy categories. Thus, they may fail to fully measure the development of new products from emerging wireless markets. This study proposes an experimental product code based on the compliance and certification applications for over 200,000 wireless devices in the Federal Communications Commission's (FCC) Equipment Authorization System (EAS) database from 1982 to 2021. The taxonomy was developed using a novel methodology, in which key phrases from application product descriptions were matched to product categories. The product code is inspired by, but diverges from, the NAICS codes. It comprises three levels of nested product aggregation: 26 Classes, 83 Families, and 298 Types, offering unique avenues to analyze the cross-market scope of wireless technology over decades. The study shows that the breadth of markets for wireless products has grown over time, particularly in areas supported by unlicensed spectrum and corresponding standards, such as Wi-Fi and Bluetooth.</p>

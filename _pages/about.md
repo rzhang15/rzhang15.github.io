@@ -25,11 +25,14 @@ latest_posts:
 ---
 
 <style>
-  /* Site accent / link color (overrides the theme's default magenta), light + dark. */
-  :root,
-  html[data-theme="dark"] {
+  /* Site accent / link color (overrides the theme's default magenta). */
+  :root {
     --global-theme-color: #0076df;
     --global-hover-color: #0076df;
+  }
+  html[data-theme="dark"] {
+    --global-theme-color: #58a6ff;
+    --global-hover-color: #58a6ff;
   }
   /* Force the headshot into a true circle regardless of the source image shape. */
   .profile img {

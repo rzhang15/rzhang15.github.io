@@ -8,11 +8,14 @@ nav_order: 3
 ---
 
 <style>
-  /* Site accent / link color (overrides the theme's default magenta), light + dark. */
-  :root,
-  html[data-theme="dark"] {
+  /* Site accent / link color (overrides the theme's default magenta). */
+  :root {
     --global-theme-color: #0076df;
     --global-hover-color: #0076df;
+  }
+  html[data-theme="dark"] {
+    --global-theme-color: #58a6ff;
+    --global-hover-color: #58a6ff;
   }
   .course {
     margin-bottom: 2.5rem;
@@ -38,7 +41,7 @@ nav_order: 3
   }
 </style>
 
-I am lucky to have taught excellent students and courses during my time as a graduate student. I was a teaching fellow for _ECON 1640: Industrial Organization_ (undergraduate) and co-created a computational PhD course _ECON 2003: Computing for Economists_ with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/).
+I am grateful to have taught excellent students and courses during my time as a graduate student. I was a teaching fellow for _ECON 1640: Industrial Organization_ (undergraduate) and co-created a computational PhD course _ECON 2003: Computing for Economists_ with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/).
 
 <div class="course" markdown="0">
   <h2>ECON 2003: Computing for Economists</h2>
@@ -47,18 +50,18 @@ I am lucky to have taught excellent students and courses during my time as a gra
 
   <p><strong>Lecture Slides</strong></p>
   <ul class="resource-list">
-    <li><a href="/assets/pdf/Software_Engineering_and_Version_Control.pdf" target="_blank" rel="noopener">Lecture 1 — Software Engineering and Version Control (PDF)</a></li>
+    <li><a href="/assets/pdf/Software_Engineering_and_Version_Control.pdf" target="_blank" rel="noopener">Lecture 1 — Software Engineering and Version Control</a></li>
     <li><a href="/assets/pdf/Data_Wrangling.pdf" target="_blank" rel="noopener">Lecture 2 — Data Wrangling (PDF)</a></li>
-    <li><a href="/assets/pdf/Intro_to_Unix_and_the_Command_Line.pdf" target="_blank" rel="noopener">Lecture 3 — Introduction to Unix and the Command Line(PDF)</a></li>
-    <li><a href="/assets/pdf/Nonlinear_Equation_Solving_and_Derivative-Based_Optimization.pdf" target="_blank" rel="noopener">Lecture 4 — Nonlinear Equation Solving and Derivative-Based Optimization (PDF)</a></li>
-    <li><a href="/assets/pdf/Derivative_Free_and_Constrained_Optimization.pdf" target="_blank" rel="noopener">Lecture 5 — Derivative-Free and Constrained Optimization (PDF)</a></li>
-    <li><a href="/assets/pdf/Numerical_Differentiation_and_Integration.pdf" target="_blank" rel="noopener">Lecture 6 — Numerical Differentiation and Integration (PDF)</a></li>
-    <li><a href="/assets/pdf/Parallelization_and_Big_Data.pdf" target="_blank" rel="noopener">Lecture 7 — Parallelization and Big Data (PDF)</a></li>
-    <li><a href="/assets/pdf/Numerical_Simulation.pdf" target="_blank" rel="noopener">Lecture 8 — Numerical Simulation and MCMC (PDF)</a></li>
-    <li><a href="/assets/pdf/Introduction_to_Algorithms_and_Combinatorial_Optimization.pdf" target="_blank" rel="noopener">Lecture 9 — Introduction to Algorithms (PDF)</a></li>
-    <li><a href="/assets/pdf/Dynamic_Programming.pdf" target="_blank" rel="noopener">Lecture 10 — Dynamic Programming (PDF)</a></li>
-    <li><a href="/assets/pdf/Machine_Learning_Methods.pdf" target="_blank" rel="noopener">Lecture 11 — Machine Learning Methods (PDF)</a></li>
-    <li><a href="/assets/pdf/Bandit_Problems_and_Reinforcement_Learning.pdf" target="_blank" rel="noopener">Lecture 12 — Bandit Problems and Reinforcement Learning (PDF)</a></li>
+    <li><a href="/assets/pdf/Intro_to_Unix_and_the_Command_Line.pdf" target="_blank" rel="noopener">Lecture 3 — Introduction to Unix and the Command Line</a></li>
+    <li><a href="/assets/pdf/Nonlinear_Equation_Solving_and_Derivative-Based_Optimization.pdf" target="_blank" rel="noopener">Lecture 4 — Nonlinear Equation Solving and Derivative-Based Optimization</a></li>
+    <li><a href="/assets/pdf/Derivative_Free_and_Constrained_Optimization.pdf" target="_blank" rel="noopener">Lecture 5 — Derivative-Free and Constrained Optimization</a></li>
+    <li><a href="/assets/pdf/Numerical_Differentiation_and_Integration.pdf" target="_blank" rel="noopener">Lecture 6 — Numerical Differentiation and Integration</a></li>
+    <li><a href="/assets/pdf/Parallelization_and_Big_Data.pdf" target="_blank" rel="noopener">Lecture 7 — Parallelization and Big Data</a></li>
+    <li><a href="/assets/pdf/Numerical_Simulation.pdf" target="_blank" rel="noopener">Lecture 8 — Numerical Simulation and Monte Carlo Methods</a></li>
+    <li><a href="/assets/pdf/Introduction_to_Algorithms_and_Combinatorial_Optimization.pdf" target="_blank" rel="noopener">Lecture 9 — Introduction to Algorithms and Combinatorial Optimization</a></li>
+    <li><a href="/assets/pdf/Dynamic_Programming.pdf" target="_blank" rel="noopener">Lecture 10 — Dynamic Programming</a></li>
+    <li><a href="/assets/pdf/Machine_Learning_Methods.pdf" target="_blank" rel="noopener">Lecture 11 — Machine Learning Methods</a></li>
+    <li><a href="/assets/pdf/Bandit_Problems_and_Reinforcement_Learning.pdf" target="_blank" rel="noopener">Lecture 12 — Bandit Problems and Reinforcement Learning</a></li>
   </ul>
 </div>
 
@@ -71,6 +74,10 @@ I am lucky to have taught excellent students and courses during my time as a gra
 
   <blockquote>
 "Ruby might be the best economics section leader I have ever had [...] I have taken many FOCs in my undergrad degree and solved many different micro problems, but I still feel like I walked away with a better micro foundation from this course, in no small part because of Ruby's sections [...] She cares a lot for her students and this is abundantly evident to how she approaches teaching [...] She's such a kind, wonderful educator that it's hard to not be excited to learn economics during her section. I am so excited for whatever university gets to have Ruby on their faculty!"
+  </blockquote>
+
+  <blockquote>
+Ruby was seriously a great teaching fellow for this course. She [...] held great enthusiasm for the material and her students. I found the sections to be helpful in enforcing the lecture material, being able to ask questions there as needed.
   </blockquote>
 
   <blockquote>
