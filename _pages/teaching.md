@@ -70,7 +70,7 @@ I am grateful to have taught excellent students and courses during my time as a 
   <p><strong>Lecture Slides</strong></p>
   <ul class="resource-list">
     <li><a href="/assets/pdf/Software_Engineering_and_Version_Control.pdf" target="_blank" rel="noopener">Lecture 1 — Software Engineering and Version Control</a></li>
-    <li><a href="/assets/pdf/Data_Wrangling.pdf" target="_blank" rel="noopener">Lecture 2 — Data Wrangling (PDF)</a></li>
+    <li><a href="/assets/pdf/Data_Wrangling.pdf" target="_blank" rel="noopener">Lecture 2 — Data Wrangling</a></li>
     <li><a href="/assets/pdf/Intro_to_Unix_and_the_Command_Line.pdf" target="_blank" rel="noopener">Lecture 3 — Introduction to Unix and the Command Line</a></li>
     <li><a href="/assets/pdf/Nonlinear_Equation_Solving_and_Derivative-Based_Optimization.pdf" target="_blank" rel="noopener">Lecture 4 — Nonlinear Equation Solving and Derivative-Based Optimization</a></li>
     <li><a href="/assets/pdf/Derivative_Free_and_Constrained_Optimization.pdf" target="_blank" rel="noopener">Lecture 5 — Derivative-Free and Constrained Optimization</a></li>
