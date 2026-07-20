@@ -17,7 +17,7 @@ nav_order: 2
     --global-theme-color: #58a6ff;
     --global-hover-color: #58a6ff;
   }
-  /* Paper entries (adapted from Connie Xu's site, restyled without a card outline) */
+  /* Paper entries */
   .paper-card {
     margin-bottom: 1.75rem;
   }
@@ -32,7 +32,7 @@ nav_order: 2
     display: inline-block;
     cursor: pointer;
     list-style: none;
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     color: var(--global-theme-color);
   }
   .paper-card summary::-webkit-details-marker {
@@ -106,12 +106,12 @@ nav_order: 2
 <div class="paper-card">
 <b>Scientific Input Costs in University Life Sciences Research</b><br>
 <span class="paper-authors">(with <a href="https://conniexu75.github.io/">Connie Xu</a>)</span>
-<details>
+<!-- <details>
 <summary>Abstract</summary>
 <div class="abstract-body">
 <p>Public funders delegate money and broad discretion to principal investigators (PIs), yet whether that discretion protects research output when input prices rise is unknown. We ask how PIs adjust, and how much research is lost. Using novel purchase-level procurement records, we exploit the 2014 merger of Thermo Fisher Scientific and Life Technologies as a shock to input prices. A matched difference-in-differences design estimates that prices in affected markets rose approximately 20 percent while quantities moved minimally, indicating highly inelastic demand. Tracing this cost shock through a panel of 6,382 U.S. life sciences PIs, we find the average PI, facing a 3.2 percent rise in input costs, publishes about 1.2 percent fewer papers, an elasticity of about -0.38. The decline concentrates among early-career PIs, who command fewer resources to draw on. The volume of publicly funded science thus depends on prices in input markets and on the PIs who manage the grants.</p>
 </div>
-</details>
+</details> -->
 </div>
 
 ## Publications
