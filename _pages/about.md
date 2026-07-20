@@ -53,6 +53,25 @@ latest_posts:
   }
 </style>
 
+<script>
+  (function () {
+    var links = document.querySelectorAll("a.nav-link");
+    var cvLink = null;
+    for (var i = 0; i < links.length; i++) {
+      var href = links[i].getAttribute("href") || "";
+      if (/\/cv\/?($|[?#])/i.test(href)) {
+        cvLink = links[i];
+        break;
+      }
+    }
+    if (!cvLink) return;
+    cvLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.open("/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf", "_blank", "noopener");
+    });
+  })();
+</script>
+
 <div class="profile float-right">
   {% include figure.liquid loading="eager" path="assets/img/headshot1_crop.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
   <div class="social">

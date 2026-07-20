@@ -41,6 +41,25 @@ nav_order: 3
   }
 </style>
 
+<script>
+  (function () {
+    var links = document.querySelectorAll("a.nav-link");
+    var cvLink = null;
+    for (var i = 0; i < links.length; i++) {
+      var href = links[i].getAttribute("href") || "";
+      if (/\/cv\/?($|[?#])/i.test(href)) {
+        cvLink = links[i];
+        break;
+      }
+    }
+    if (!cvLink) return;
+    cvLink.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.open("/assets/pdf/Ruby (Ruishan) Zhang Curriculum Vitae.pdf", "_blank", "noopener");
+    });
+  })();
+</script>
+
 I am grateful to have taught excellent students and courses during my time as a graduate student. I was a teaching fellow for _ECON 1640: Industrial Organization_ (undergraduate) and co-created a computational PhD course _ECON 2003: Computing for Economists_ with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/).
 
 <div class="course" markdown="0">
