@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-17'
+  last_updated: '2026-07-27'
 papers:
   sL_QbroAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -13,11 +13,15 @@ papers:
     citations: 0
     title: 'Wireless communications equipment markets: Evolution, classification, and measurement'
     year: '2026'
+  sL_QbroAAAAJ:qjMakFHDy7sC:
+    citations: 1
+    title: 'Secrecy, spectrum, and certification: Evidence from wireless electronic devices'
+    year: '2026'
   sL_QbroAAAAJ:u-x6o8ySG0sC:
-    citations: 1147
+    citations: 1156
     title: 'Social capital I: measurement and associations with economic mobility'
     year: '2022'
   sL_QbroAAAAJ:u5HHmVD_uO8C:
-    citations: 439
+    citations: 434
     title: 'Social capital II: determinants of economic connectedness'
     year: '2022'
