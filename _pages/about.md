@@ -53,43 +53,33 @@ latest_posts:
       margin: 0 auto 1.5rem;
     }
   }
-  /* Role / institution lines under the photo */
-  .profile-meta {
+  /* Role / institution lines + social links: one shared block, sized to its
+     widest line and centered as a unit under the photo, with everything left-
+     aligned inside so the icons all line up on the same left edge. */
+  .profile-info {
     margin-top: 0.75rem;
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  .profile-meta .meta-line {
-    margin-bottom: 0.2rem;
-  }
-  .profile-meta .meta-line i {
-    margin-right: 0.3rem;
-    color: var(--global-text-color-light);
-  }
-  /* Social links: one per line, with a label. The block is sized to its widest
-     line (Google Scholar) and centered as a unit, so lines stay left-aligned
-     relative to each other while the group sits centered under the photo. */
-  .social-list {
-    margin-top: 0.6rem;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     font-size: 0.8rem;
   }
-  .social-list div {
-    margin-bottom: 0.3rem;
+  .profile-info > div {
+    margin-bottom: 0.25rem;
   }
-  .social-list a {
+  .profile-info a {
     color: var(--global-text-color);
   }
-  .social-list a:hover {
+  .profile-info a:hover {
     color: var(--global-theme-color);
   }
-  .social-list i {
+  .profile-info i {
     margin-right: 0.4rem;
     width: 1em;
     text-align: center;
+  }
+  .profile-info .meta-line i {
+    color: var(--global-text-color-light);
   }
   /* Bordered text column: shrinks to avoid running under the floated photo. */
   .content-border {
@@ -99,10 +89,11 @@ latest_posts:
     padding: 1.25rem 1.5rem;
     text-align: justify;
   }
-  /* Breathing room between page sections */
+  /* Breathing room between page sections; titles stay left-aligned (justify looks odd on wrapped headings). */
   .content-border h2 {
     margin-top: 3rem;
     margin-bottom: 1rem;
+    text-align: left;
   }
   .content-border h2:first-of-type {
     margin-top: 4.5rem;
@@ -170,11 +161,9 @@ latest_posts:
 
 <div class="profile float-right">
   {% include figure.liquid loading="eager" path="assets/img/headshot1_crop.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
-  <div class="profile-meta">
+  <div class="profile-info">
     <div class="meta-line">PhD Candidate in Economics</div>
     <div class="meta-line"><i class="fa-solid fa-landmark"></i>Harvard University</div>
-  </div>
-  <div class="social-list">
     <div><a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a></div>
     <div>
       <a
