@@ -17,6 +17,59 @@ nav_order: 2
     --global-theme-color: #58a6ff;
     --global-hover-color: #58a6ff;
   }
+  /* Smaller headshot, forced into a true circle regardless of the source image shape. */
+  .profile {
+    max-width: 190px;
+  }
+  .profile.float-right {
+    margin-left: 2rem;
+  }
+  .profile img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  /* Role / institution lines under the photo */
+  .profile-meta {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .profile-meta .meta-line {
+    margin-bottom: 0.2rem;
+  }
+  .profile-meta .meta-line i {
+    margin-right: 0.3rem;
+    color: var(--global-text-color-light);
+  }
+  /* Social links: one per line, with a label */
+  .social-list {
+    margin-top: 0.6rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .social-list div {
+    margin-bottom: 0.3rem;
+  }
+  .social-list a {
+    color: var(--global-text-color);
+  }
+  .social-list a:hover {
+    color: var(--global-theme-color);
+  }
+  .social-list i {
+    margin-right: 0.4rem;
+    width: 1em;
+    text-align: center;
+  }
+  /* Bordered text column: shrinks to avoid running under the floated photo. */
+  .content-border {
+    display: flow-root;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
+    text-align: justify;
+  }
   .course {
     margin-bottom: 2.5rem;
   }
@@ -59,6 +112,33 @@ nav_order: 2
     });
   })();
 </script>
+
+<div class="profile float-right">
+  {% include figure.liquid loading="eager" path="assets/img/headshot1_crop.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
+  <div class="profile-meta">
+    <div class="meta-line">PhD Candidate in Economics</div>
+    <div class="meta-line"><i class="fa-solid fa-landmark"></i>Harvard University</div>
+  </div>
+  <div class="social-list">
+    <div><a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a></div>
+    <div>
+      <a
+        href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en"
+        target="_blank"
+        rel="noopener"
+      >
+        <i class="ai ai-google-scholar"></i>Google Scholar
+      </a>
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i>LinkedIn
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="content-border" markdown="1">
 
 I am grateful to have taught excellent students and courses during my time as a graduate student. I was a teaching fellow for _ECON 1640: Industrial Organization_ (undergraduate) and co-created a computational PhD course _ECON 2003: Computing for Economists_ with [Toren Fronsdal](https://www.linkedin.com/in/fronsdal) and [Jesse Shapiro](https://shapiro.scholars.harvard.edu/).
 
@@ -110,4 +190,6 @@ Ruby was seriously a great teaching fellow for this course. She [...] held great
    <blockquote>
 "Very knowledgeable and very good at explaining the assigned topics – both in section and office hours. Facilitated relevant discussions during section and available and helpful during office hours. Excellent section leader!"
   </blockquote>
+</div>
+
 </div>

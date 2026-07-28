@@ -1,15 +1,15 @@
 ---
 layout: about
-title: About
+title: Main
 permalink: /
 subtitle:
 nav: false # the navbar auto-adds the homepage as the "about" tab; nav:true would duplicate it
 nav_order: 1
 
-# NOTE: the photo + social icons are built by hand in the page body below so the
-# icons can sit directly under the photo. That is why there is no `profile:` block
-# here and `social` is set to false (the layout would otherwise put icons at the
-# very bottom of the page).
+# NOTE: the photo + meta lines + social links are built by hand in the page body below
+# (shared with _pages/teaching.md) so they can be styled and positioned identically on
+# both pages. That is why there is no `profile:` block here and `social` is set to false
+# (the layout would otherwise put icons at the very bottom of the page).
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # icons are rendered manually under the photo below
 
@@ -38,32 +38,61 @@ latest_posts:
   .profile {
     max-width: 190px;
   }
+  .profile.float-right {
+    margin-left: 2rem;
+  }
   .profile img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 50%;
   }
-  /* Social icons: smaller and centered directly beneath the photo. */
-  .profile .social {
+  /* Role / institution lines under the photo */
+  .profile-meta {
+    margin-top: 0.75rem;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .profile-meta .meta-line {
+    margin-bottom: 0.2rem;
+  }
+  .profile-meta .meta-line i {
+    margin-right: 0.3rem;
+    color: var(--global-text-color-light);
+  }
+  /* Social links: one per line, with a label */
+  .social-list {
     margin-top: 0.6rem;
     text-align: center;
+    font-size: 0.8rem;
   }
-  .profile .social .contact-icons {
-    font-size: 1.7rem;
+  .social-list div {
+    margin-bottom: 0.3rem;
   }
-  .profile .social .contact-icons a {
-    margin: 0 0.3rem;
+  .social-list a {
+    color: var(--global-text-color);
   }
-  /* Intro bio */
-  .intro-text {
+  .social-list a:hover {
+    color: var(--global-theme-color);
+  }
+  .social-list i {
+    margin-right: 0.4rem;
+    width: 1em;
+    text-align: center;
+  }
+  /* Bordered text column: shrinks to avoid running under the floated photo. */
+  .content-border {
+    display: flow-root;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    padding: 1.25rem 1.5rem;
     text-align: justify;
   }
   /* Breathing room between page sections */
-  h2 {
+  .content-border h2 {
     margin-top: 3rem;
     margin-bottom: 1rem;
   }
-  h2:first-of-type {
+  .content-border h2:first-of-type {
     margin-top: 4.5rem;
   }
   /* Paper entries */
@@ -128,20 +157,36 @@ latest_posts:
 
 <div class="profile float-right">
   {% include figure.liquid loading="eager" path="assets/img/headshot1_crop.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
-  <div class="social">
-    <div class="contact-icons">{% social_links %}</div>
+  <div class="profile-meta">
+    <div class="meta-line">PhD Candidate in Economics</div>
+    <div class="meta-line"><i class="fa-solid fa-landmark"></i>Harvard University</div>
+  </div>
+  <div class="social-list">
+    <div><a href="mailto:{{ site.data.socials.email }}"><i class="fa-solid fa-envelope"></i>Email</a></div>
+    <div>
+      <a
+        href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}&hl=en"
+        target="_blank"
+        rel="noopener"
+      >
+        <i class="ai ai-google-scholar"></i>Google Scholar
+      </a>
+    </div>
+    <div>
+      <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}" target="_blank" rel="noopener">
+        <i class="fa-brands fa-linkedin"></i>LinkedIn
+      </a>
+    </div>
   </div>
 </div>
 
-<div class="intro-text" markdown="1">
+<div class="content-border" markdown="1">
 
 Welcome to my website! I am a PhD candidate in Economics at Harvard University. I study innovation and industrial organization, with a focus on digitization and AI.
 
 **I am on the 2026-2027 job market.**
 
 I am a graduate affiliate of the [Institute for Quantitative Social Science](https://www.iq.harvard.edu/). Prior to the PhD, I worked as a Pre-Doctoral Fellow at [Opportunity Insights](https://opportunityinsights.org/) and graduated from the University of Chicago in 2019. You can reach me at [rzhang15@g.harvard.edu](mailto:rzhang15@g.harvard.edu).
-
-</div>
 
 ## Job Market Paper
 
@@ -231,4 +276,6 @@ I am a graduate affiliate of the [Institute for Quantitative Social Science](htt
 </div>
 </details>
 <div class="paper-extra">NAS Commissioned Paper: <a href="https://www.nationalacademies.org/projects/PGA-POLICY-22-17">A Plan to Promote Defense Research at Minority-Serving Institutions</a></div>
+</div>
+
 </div>
