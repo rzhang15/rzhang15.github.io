@@ -45,7 +45,7 @@ nav_order: 2
   /* Social links: one per line, with a label */
   .social-list {
     margin-top: 0.6rem;
-    text-align: center;
+    text-align: left;
     font-size: 0.8rem;
   }
   .social-list div {
@@ -127,7 +127,7 @@ nav_order: 2
         target="_blank"
         rel="noopener"
       >
-        <i class="ai ai-google-scholar"></i>Google Scholar
+        <i class="fa-solid fa-graduation-cap"></i>Google Scholar
       </a>
     </div>
     <div>
