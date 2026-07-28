@@ -29,6 +29,13 @@ nav_order: 2
     object-fit: cover;
     border-radius: 50%;
   }
+  /* On small screens, stack the photo block above the text instead of floating beside it. */
+  @media (max-width: 575.98px) {
+    .profile.float-right {
+      float: none;
+      margin: 0 auto 1.5rem;
+    }
+  }
   /* Role / institution lines under the photo */
   .profile-meta {
     margin-top: 0.75rem;
@@ -42,9 +49,14 @@ nav_order: 2
     margin-right: 0.3rem;
     color: var(--global-text-color-light);
   }
-  /* Social links: one per line, with a label */
+  /* Social links: one per line, with a label. The block is sized to its widest
+     line (Google Scholar) and centered as a unit, so lines stay left-aligned
+     relative to each other while the group sits centered under the photo. */
   .social-list {
     margin-top: 0.6rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
     font-size: 0.8rem;
   }
