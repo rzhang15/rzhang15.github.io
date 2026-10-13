@@ -160,7 +160,7 @@ latest_posts:
 </script>
 
 <div class="profile float-right">
-  {% include figure.liquid loading="eager" path="assets/img/headshot1_crop.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
+  {% include figure.liquid loading="eager" path="assets/img/Ruby Zhang Main 1›.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
   <div class="profile-info">
     <div class="meta-line">PhD Candidate in Economics</div>
     <div class="meta-line"><i class="fa-solid fa-landmark"></i>Harvard University</div>
@@ -193,12 +193,12 @@ I am a graduate affiliate of the [Institute for Quantitative Social Science](htt
 ## Job Market Paper
 
 <div class="paper-card">
-<b>The Returns to Science of Centrally Provisioned GPUs and Optimal Allocation</b><br>
+<b>Returns to Science of Centrally Provisioned GPUs and Optimal Allocation</b><br>
 <span class="paper-authors">(with <a href="https://conniexu75.github.io/">Connie Xu</a>)</span>
 <details>
 <summary>Abstract</summary>
 <div class="abstract-body">
-<p>Artificial intelligence and deep learning methods require expensive capital investments in the form of Graphical Processing Units (GPUs). Given the importance of GPU clusters to computational research, where should infrastructure funding be allocated? We construct a novel panel of university GPU capacity and research output for R1 U.S. universities, combining historical snapshots of research computing websites with bibliometric data from OpenAlex. We use large, discrete computing capacity jumps in an event-study design and find modest effects of cluster upgrades on AI-related publications. However, there is significant heterogeneity: low-tier universities exhibit a larger marginal response to capacity upgrades than high-tier universities. We develop a structural model of the university as a multi-product organization to estimate the production function for GPU-enabled research, derive a capital allocation rule across fields, and use the estimated elasticities to characterize the NSF's revealed preference over efficiency versus equity. Our findings suggest that diminishing returns to computing capital favor a more redistributive allocation of federal cyberinfrastructure grants.</p>
+<p>Should federal infrastructure funding go to more productive universities or to universities where external funding is most likely to relieve financing constraints? We construct a novel panel of CPU and GPU capacity at U.S. R1 universities from historical research-computing websites and link it to publication and researcher histories from OpenAlex. Exploiting large, discrete capacity expansions in a staggered difference-in-differences design, we find substantial heterogeneity in the impact of upgrades on computer science paper publications. Less-resourced universities experience persistent gains, while effects at well-resourced universities are short-lived. We model the university as a multiproduct organization, estimate field-level production elasticities with respect to computing capital and researchers, and use the implied marginal products of capital to evaluate counterfactual funding allocations. In a counterfactual holding fixed all inputs except GPU capital, a purely publication maximizing allocation concentrates capital funding more heavily at relatively high-output institutions than the observed portfolio from the National Science Foundation (NSF), consistent with the agency valuing a broader distribution of scientific capacity.</p>
 </div>
 </details>
 </div>
@@ -217,12 +217,12 @@ I am a graduate affiliate of the [Institute for Quantitative Social Science](htt
 </div>
 
 <div class="paper-card">
-<b>Scientific Input Costs in University Life Sciences Research</b><br>
+<b>Managing the Rising Cost of Science: Supplier Consolidation in the Academic Life Sciences</b><br>
 <span class="paper-authors">(with <a href="https://conniexu75.github.io/">Connie Xu</a>)</span>
 <details>
 <summary>Abstract</summary>
 <div class="abstract-body">
-<p>Scientific research is defined by uncertainty, requiring principal investigators to constantly navigate funding cycles, resource constraints, and unpredictable discoveries. Navigating this uncertainty to sustain a research agenda depends on how scientists are able to absorb these shocks. While prior work often focuses on funding fluctuations, the impact of supply-side cost shocks remains largely unexplored because scientist purchasing behavior is difficult to observe. We explore one such shock in the life sciences—-the 2014 Thermo Fisher and Life Technologies merger—-using novel procurement records. A matched difference-in-differences design reveals affected prices rose 20% with minimal quantity response. This translates to a 3.2% increase in everyday lab supply costs and a 1% decline in annual publications. Our estimated -0.30 output-cost elasticity equates to nearly 300 fewer annual publications across 12,000 scientists. The decline concentrates among early-career PIs, who possess the least financial slack but generate the highest output per dollar. While they respond by securing additional NIH funding, their output fails to recover, suggesting time is lost to grant writing. Ultimately, these rising input costs act as a hidden friction on scientific innovation.</p>
+<p>Many scientific inputs are sold in increasingly concentrated markets that expose scientists to rising prices, while experimental protocols calibrated to specific products make it difficult to substitute away from them. How much science is lost when these inputs become more expensive, and which scientists are better able to adjust? Using purchase-level procurement records, we follow a merger of two large life sciences suppliers from the prices principal investigators (PIs) pay to the research they produce. Post-merger prices in affected markets rose by roughly 20 percent, while quantities declined only temporarily, indicating limited demand response. PIs facing larger increases in their input costs published less. For the average PI, input costs rose by about 2.8 percent and scientific output fell by about 1.2 percent. The consequences of higher input prices therefore extend beyond research costs to the production of science itself. The output losses fall disproportionately on early-career PIs. Financial resources do not explain this difference. Instead, the ability to adjust appears to improve with experience, consistent with PIs accumulating knowledge of how to respond to higher costs through years of running a lab.</p>
 </div>
 </details>
 </div>
