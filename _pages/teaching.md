@@ -120,7 +120,7 @@ nav_order: 2
 </script>
 
 <div class="profile float-right">
-  {% include figure.liquid loading="eager" path="assets/img/Ruby Zhang Main 1.png" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
+  {% include figure.liquid loading="eager" path="assets/img/Ruby Zhang Main 1.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Ruby Zhang" %}
   <div class="profile-info">
     <div class="meta-line">PhD Candidate in Economics</div>
     <div class="meta-line"><i class="fa-solid fa-landmark"></i>Harvard University</div>
