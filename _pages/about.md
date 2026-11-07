@@ -195,7 +195,7 @@ I am a graduate affiliate of the [Institute for Quantitative Social Science](htt
 ## Job Market Paper
 
 <div class="paper-card">
-<b>Returns to Science of Centrally Provisioned GPUs and Optimal Allocation</b><br>
+<b><a href="https://rzhang15.github.io/assets/pdf/Ruby (Ruishan) Zhang JMP.pdf">Returns to Science of Centrally Provisioned GPUs and Optimal Allocation</a></b><br>
 <span class="paper-authors">(with <a href="https://conniexu75.github.io/">Connie Xu</a>)</span>
 <details>
 <summary>Abstract</summary>
@@ -208,7 +208,7 @@ I am a graduate affiliate of the [Institute for Quantitative Social Science](htt
 ## Working Papers
 
 <div class="paper-card">
-<b>Secrecy, Spectrum, and Certification: Evidence from Wireless Electronic Devices</b><br>
+<b><a href="https://rzhang15.github.io/assets/pdf/Ruby (Ruishan) Zhang Confidentiality.pdf">Secrecy, Spectrum, and Certification: Evidence from Wireless Electronic Devices</a></b><br>
 <span class="paper-authors">(with <a href="https://scholar.google.com/citations?user=KjdWS1kAAAAJ&hl=en">Roberto Fontana</a>, <a href="https://www.hbs.edu/faculty/Pages/profile.aspx?facId=718917">Shane Greenstein</a>, and <a href="https://scholar.google.com/citations?user=PWNDHjgAAAAJ&hl=en">Do Yoon Kim</a>)</span>
 <details>
 <summary>Abstract</summary>
